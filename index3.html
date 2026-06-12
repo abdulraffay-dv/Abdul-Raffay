@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MY STUDENT FORM</title>
+</head>
+<body>
+
+    <center>
+        <h1>STUDENT REGISTRATION FORM</h1>
+    </center>
+
+    <hr>
+
+    <form action="https://formspree.io/f/YOUR_EMAIL_HERE" method="POST">
+        <h3>Personal Details:</h3>
+        
+        <label>First Name:</label>
+        <input type="text" name="fname" placeholder="Enter your first name" required>
+        <br><br>
+
+        <label>Last Name:</label>
+        <input type="text" name="lname" placeholder="Enter your last name" required>
+        <br><br>
+
+        <label>Father Name:</label>
+        <input type="text" name="faname" placeholder="Enter your father name" required>
+        <br><br>
+
+        <label>Age:</label>
+        <input type="number" name="age" placeholder="Enter your age" required>
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male" required> Male
+        <input type="radio" name="gender" value="female"> Female
+        <br><br> 
+
+        <hr>
+
+        <h3>Contact Details:</h3>
+
+        <label>Email ID:</label>
+        <input type="email" name="email" placeholder="Enter your email ID" required>
+        <br><br>
+
+        <label>Phone Number:</label>
+        <input type="text" name="phone" placeholder="Enter your phone number" required>
+        <br><br>
+
+        <label>Address:</label>
+        <br>
+        <textarea rows="4" cols="30" name="address" placeholder="Enter your address" required></textarea>
+        <br><br>
+
+        <center>
+            <input type="submit" value="SUBMIT FORM" style="background-color: darkblue; color: white; border: none; padding: 5px 10px;">
+        </center>
+
+    </form>
+
+</body>
+</html>
